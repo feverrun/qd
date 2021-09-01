@@ -1,11 +1,11 @@
-var st = "";
+var st = "ChZhY2Z1bi5taWRncm91bmQuYXBpLnN0EmDqm59j-tdrOhH3uH-pskrag4eQ9UvNpvh4U0OPMqSdcL_zhYdy_v9TLN6IpBJhAXjynZ9iZfO7uMQaTSwv904z02UR_LOJhcHo1zWjSyO1eoJAp2tj0QgqGZIGeHGGVqoaEo-VtCa1BsV6uXRHmPJst7exzCIgqbYYpzpy_kzIUCUXnyuLbhNYmfHdd44L7Wi_Cm0FZJ8oBTAB";
 var result = "ACFUN:\n";
 var authkey = "";
 var headers = {
     "referer": "https://www.acfun.cn/",
     "Content-Type": "application/x-www-form-urlencoded",
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Safari/537.36",
-    cookie: "",
+    cookie: "__NSWJ=; acfun.midground.api_st=ChZhY2Z1bi5taWRncm91bmQuYXBpLnN0EmDqm59j-tdrOhH3uH-pskrag4eQ9UvNpvh4U0OPMqSdcL_zhYdy_v9TLN6IpBJhAXjynZ9iZfO7uMQaTSwv904z02UR_LOJhcHo1zWjSyO1eoJAp2tj0QgqGZIGeHGGVqoaEo-VtCa1BsV6uXRHmPJst7exzCIgqbYYpzpy_kzIUCUXnyuLbhNYmfHdd44L7Wi_Cm0FZJ8oBTAB;",
 };
 const axios = require("axios");
 
@@ -175,8 +175,8 @@ function acfun(account, password) {
     return new Promise(async (resolve) => {
         try {
             console.log("Acfun每日任务开始...");
-            const account = config.acfun.phone;
-            const password = config.acfun.password;
+            const account = '18896637028';
+            const password = 'Test999000';
             let res = await axios.post(
                 "https://id.app.acfun.cn/rest/web/login/signin",
                 `username=${account}&password=${password}`, {
@@ -209,6 +209,6 @@ function acfun(account, password) {
     });
 }
 
-//acfun()
+acfun()
 
-module.exports = acfun;
+//module.exports = acfun;
