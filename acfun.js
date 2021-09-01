@@ -1,4 +1,5 @@
-var st = "ChZhY2Z1bi5taWRncm91bmQuYXBpLnN0EmDqm59j-tdrOhH3uH-pskrag4eQ9UvNpvh4U0OPMqSdcL_zhYdy_v9TLN6IpBJhAXjynZ9iZfO7uMQaTSwv904z02UR_LOJhcHo1zWjSyO1eoJAp2tj0QgqGZIGeHGGVqoaEo-VtCa1BsV6uXRHmPJst7exzCIgqbYYpzpy_kzIUCUXnyuLbhNYmfHdd44L7Wi_Cm0FZJ8oBTAB";
+var st = "";
+
 var result = "ACFUN:\n";
 var authkey = "";
 var headers = {
